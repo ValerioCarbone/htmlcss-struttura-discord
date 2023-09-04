@@ -8,16 +8,34 @@
 /* DEBUG */
 
 .debug{
-    margin: 2px dashed black;
+    border: black dashed 2px;
 }
 
 .navbar{
     background-color: #ADD8E6;
     min-height: 80px;
+    display: flex;
+    justify-content: center;
+    
 
 }
 
 .maincontent-header{
     background-color: #00008B;
     min-height: 500px;
+}
+
+.row-navbar{
+    background-color: #DAA520;
+    min-height: 50px;
+    display: flex;
+    min-width: 800px;
+    margin: 15px 0;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    
 }
