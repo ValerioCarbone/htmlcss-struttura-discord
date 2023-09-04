@@ -8,7 +8,7 @@
 /* DEBUG */
 
 .debug{
-    border: black dashed 2px;
+    border: black dashed 1px;
 }
 
 .navbar{
@@ -29,13 +29,35 @@
     background-color: #DAA520;
     min-height: 50px;
     display: flex;
-    min-width: 800px;
+    min-width: 1200px;
     margin: 15px 0;
+    font-size: 24px;
+    
 }
 
 .container{
     max-width: 1200px;
     display: flex;
-    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: calc(100% / 4);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
     
 }
+
+.col-2:last-child{
+    justify-content: flex-end;
+}
+
+.col-8{
+    flex-basis: calc(100% / 2);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
