@@ -23,7 +23,12 @@
 .maincontent-header{
     background-color: #00008B;
     min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:4px solid #ADD8E6 ;
 }
+
 
 .row-navbar{
     background-color: #DAA520;
@@ -37,7 +42,8 @@
 
 .container{
     max-width: 1200px;
-    display: flex;
+    
+    
 }
 
 .col-2{
@@ -61,3 +67,8 @@
    
 }
 
+.row-mainc-header{
+    min-height: 400px;
+    min-width: 1000px;
+    background-color: #EE82EE;
+}
