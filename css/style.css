@@ -106,3 +106,22 @@ flex-grow: 1;
     align-items: center;
     background-color: #D3D3D3;
 }
+
+.big-main-section-bggrey{
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+}
+
+.big-row-main{
+    min-height: 800px;
+    min-width: 1200px;
+    display: flex;
+}
+
+.col-12 {
+    background-color: #228B22;
+    flex-basis: 100%;
+}
