@@ -11,6 +11,13 @@
     border: black dashed 2px;
 }
 
+.debugwhite{
+    border: white dashed 2px;
+
+}
+ 
+/* HEADER */
+
 .navbar{
     background-color: #ADD8E6;
     min-height: 80px;
@@ -73,6 +80,8 @@
     background-color: #EE82EE;
 }
 
+/* MAIN-SECTION */
+
 .main-section-bgwhite{
     min-height: 600px;
     display: flex;
@@ -124,4 +133,23 @@ flex-grow: 1;
 .col-12 {
     background-color: #228B22;
     flex-basis: 100%;
+}
+
+.main-section-bgblack{
+background-color: #23272a;
+min-height: 600px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding-top: 8px;
+margin-bottom: 2px solid white;
+}
+
+.row-main > .col-2 {
+    background-color: #20B2AA;
+}
+
+.col-3{
+    flex-basis: calc(100% / 3);
+    background-color: #F08080;
 }
