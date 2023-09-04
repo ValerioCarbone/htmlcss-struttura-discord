@@ -165,14 +165,17 @@ border-bottom: 2px solid white;
 
 .row-footer{
     min-width: 1200px;
-    min-height: 70px;
+    min-height: 80px;
     background-color: #7FFFD4;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .col-footer{
-    min-height: 40px;
-    min-width: 50px;
+    min-height: 36px;
+    min-width: 44px;
+    background-color: #FFB6C1;
+    font-size: 22px;
+    padding: 2px 8px;
 }
