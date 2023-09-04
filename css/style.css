@@ -10,3 +10,14 @@
 .debug{
     margin: 2px dashed black;
 }
+
+.navbar{
+    background-color: #ADD8E6;
+    min-height: 80px;
+
+}
+
+.maincontent-header{
+    background-color: #00008B;
+    min-height: 500px;
+}
