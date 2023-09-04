@@ -4,3 +4,9 @@
     border: 0;
     box-sizing: border-box;
 }
+ 
+/* DEBUG */
+
+.debug{
+    margin: 2px dashed black;
+}
